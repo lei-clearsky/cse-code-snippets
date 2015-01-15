@@ -16,21 +16,21 @@ var onScrollHeader = (function() {
 
 	function headerScroll() {
 		var headerY = headerScrollY();
-	    if ( headerY >= changeHeaderOn && window.innerWidth > 960 ) {
-	        headerOnScroll.addClass("fix-top-header");
-	    towerOnScroll.addClass('toggle-display');
-	    }
-	    else {
-	        headerOnScroll.removeClass("fix-top-header");
-	    towerOnScroll.removeClass('toggle-display');
-	    }
-	    scroll = false;
+		if ( headerY >= changeHeaderOn && window.innerWidth > 960 ) {
+			headerOnScroll.addClass("fix-top-header");
+			towerOnScroll.addClass('toggle-display');
+		}
+		else {
+			headerOnScroll.removeClass("fix-top-header");
+			towerOnScroll.removeClass('toggle-display');
+		}
+		scroll = false;
 	}
 
 	function headerScrollY() {
-	        return window.pageYOffset || docElem.scrollTop;
+		return window.pageYOffset || docElem.scrollTop;
 	}
 
 	initHeaderScroll();
-	
+
 })();
