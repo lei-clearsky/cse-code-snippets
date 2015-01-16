@@ -1,0 +1,1753 @@
+/* =============== Sticky Header ========================= */
+.cse-mega-menu > ul > li > a.tower-logo-display{
+  display:none;
+  vertical-align:middle;
+  padding:0 0.5em 0 0;  
+}
+.cse-mega-menu > ul > li > a.tower-logo-display.toggle-display{
+  display:inline-block;  
+}
+.fix-top-header-container{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 52px;
+}
+.fix-top-header .fix-top-header-container{
+  background:#036;
+  border-bottom:1px solid #fff;
+  z-index:100;
+  transition: all 0.5s ease;
+}
+.fix-top-header .cse-mega-menu {
+  position: fixed;
+  top: 0;
+  width:960px;
+  z-index:100;
+  border-top:none;
+  transition: all 0.5s ease;
+}
+.fix-top-header .cse-mega-menu > ul > li > a{
+  font-size:1.4em;
+}
+.tower-logo{
+  width:23px;
+}
+
+/* =============== Search ========================= */
+.searchResults .searchHeader{
+  background:#eee; 
+  padding:3px 5px; 
+  color:#444; 
+  height:100%; 
+  border:1px solid #ccc; 
+  line-height:146.5%;
+}
+.searchResults .searchHeader .navButtons{
+  float:right;
+}
+.searchResults img{
+  margin:4px 2px;
+}
+.searchResults .searchHeader p{
+  margin:0;
+}
+
+/* =============== HP News and Events CSS ========================= */
+.light-grey-bg {
+  padding: 50px 0;
+  background: #f4f4f4;
+}
+/* =============== News ========================= */
+.hp-news-listing{
+  background:#fff;
+}
+.hp-news-title{
+  background: #ffb519;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.hp-news-listItem{
+  margin: 0;
+  border-bottom: 0;
+  background: #fff;
+}
+
+.hp-news-listItem img{
+  width: 250px;
+  padding:10px;
+  float:left;
+}
+
+.hp-news-listItem .info{
+  float: left;
+  width: 340px;
+  margin: 10px 0;
+}
+.hp-news-listItem .info h2{
+  font-size:32px;
+  line-height: 35px;
+}
+.hp-news-listItem .info .subtitle{
+  font-style: italic;
+  color: #333;
+  font-weight: 700;
+  font-size: 16px;
+}
+.hp-news-listItem .info .divider{
+  border-bottom: 1px solid #333;
+  margin: 8px 0;
+}
+.hp-news-listItem .info .link-to-story,
+.hp-news-listItem-sub .info .link-to-story{
+  font-weight:700;
+}
+.hp-news-listItem .info .link-to-story a,
+.hp-news-listItem-sub .info .link-to-story a{
+  color:#333;
+}
+.hp-news-listItem .info .link-to-story a:hover,
+.hp-news-listItem-sub .info .link-to-story a:hover{
+  color:#ffb519;
+}
+.hp-news-listItem-sub{
+  border-top: 1px solid #e9e9e9;
+  padding:10px;
+}
+.hp-news-listItem-sub .info{
+  margin-bottom:10px;
+}
+.hp-news-listItem-sub .info h3{
+  font-size:24px;
+  margin-bottom: 0;
+}
+/* =============== Events ========================= */
+.hp-events-listing{
+  background:#fff;
+}
+.hp-events-title{
+  background: #f47a20;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+.eventSideBox{
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+.eventSideBox:nth-child(3){
+  border-bottom: none;
+}
+.eventSideBox .leftC{
+  color: #333;
+  background: #ccc;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  width: 40px;
+  padding: 5px 8px;
+  margin:10px;
+  border-top: 3px solid #000;
+}
+.eventSideBox .leftC .month {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+}
+.eventSideBox .leftC .day {
+  font-size: 32px;
+  padding: 6px 0px;
+}
+.eventSideBox .leftC .weekday {
+  font-size: 10px;
+}
+.eventSideBox .eventInfo{
+  clear: right;
+  padding:10px;
+}
+.eventSideBox .eventInfo h3{
+  line-height:30px;
+}
+.eventSideBox .eventInfo p{
+  margin:0;
+}
+
+.eventSideBox .eventInfo h4{
+  margin-bottom:0;
+}
+
+.eventInfo a {
+  color: #333;
+}
+.eventInfo a:hover {
+  color: #f47a20;
+}
+
+.hp-events-fullcalendar-link{
+  background:#fff;
+  text-align:right;
+  padding:5px 10px;
+}
+/*========== Hover Circles Animation ===========*/
+.ch-grid {
+  margin: 50px 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.ch-grid h2{
+  margin-top: 20px;
+}
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+
+.ch-grid:after {
+  clear: both;
+}
+
+.ch-grid li {
+  width: 230px;
+  height: 230px;
+  display: inline-block;
+  margin: 40px;
+}
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  -o-perspective: 900px;
+  -ms-perspective: 900px;
+  perspective: 900px;
+}
+.ch-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+  box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+}
+
+.ch-info .ch-info-back {
+  -webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  background: #000;
+  opacity: 0;
+}
+
+.ch-img-1 { 
+  background-image: url(http://www.cse.edu/global/images/home/Fall2014-WC.jpg);
+}
+
+.ch-img-2 { 
+  background-image: url(http://www.cse.edu/global/images/home/Fall2014-CS.jpg);
+}
+
+.ch-img-3 { 
+  background-image: url(http://www.cse.edu/global/images/home/Fall2014-GS.jpg);
+}
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin: 0 15px;
+  padding: 60px 0 0 0;
+  height: 80px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow: 
+    0 0 1px #fff, 
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+  display: block;
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+  color: #fff222;
+  color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+  -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+  -webkit-transform: rotate3d(1,0,0,0deg);
+  -moz-transform: rotate3d(1,0,0,0deg);
+  -o-transform: rotate3d(1,0,0,0deg);
+  -ms-transform: rotate3d(1,0,0,0deg);
+  transform: rotate3d(1,0,0,0deg);
+  opacity: 1;
+}
+/*========== Homepage Headline ===========*/
+.homepage-heading{
+  color:#003366; 
+  font-size: 55px; 
+  line-height:1em;
+  text-align:center; 
+  margin: 70px 0px;
+  font-family: 'Open Sans Condensed', sans-serif; 
+  font-weight: bold;
+}
+/* =============== About CSE/By the Numbers ========================= */
+.about-cse-hp-wrap{
+  padding: 100px 0 50px 0;
+  background: url('/global/images/home/AC-PhotoMerge.jpg') no-repeat 50% 50% fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+.numberItem{
+  padding: 30px 0 10px 0;
+  background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+}
+.headerWrap{
+  background-color:#036;
+}
+.about-cse-hp{
+  margin: 0 0 50px 0;
+  text-align:center;
+}
+.about-cse-hp h1{
+  font-size:80px;
+  color:#fff;
+}
+.about-cse-hp h3,
+.about-cse-hp a{
+  color:#fff;
+}
+.about-cse-hp .about-btn{
+  background-color: #f47a20;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.about-cse-hp .about-btn:hover, .about-cse-hp .about-btn:focus, .about-cse-hp .about-btn:active{
+color: #fff;
+background-color: #f5aa00;
+text-decoration: none;
+
+}
+/*========== Online College Services ===========*/
+.online-college-services{
+  font-family: 'open sans condensed', sans-serif;
+  margin: 0px 0px 20px 0px;
+}
+
+.online-college-services ul{
+  list-style: none;
+  display: inline-block;
+  margin-left: 0px;
+}
+
+.online-college-services li{
+  display: inline;
+  margin: 0 5px 0px 0;
+}
+
+.online-college-services a {
+  border: solid 1px #da7c0c;
+  background: #003366;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0460BD), to(#003366));
+  background: -moz-linear-gradient(top,  #0460bd,  #003366);
+  box-shadow: 0px 0px 1px 1px #C0C0C0;
+  text-shadow: 1px 1px 1px #333;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  height: 35px;
+  width: 120px;
+  padding: 0px 10px;
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.online-college-services a:hover{
+  background: #01284E;
+  background: -webkit-gradient(linear, left top, left bottom, from(#054D96), to(#01284E));
+  background: -moz-linear-gradient(top,  #054D96,  #01284E);
+}
+/*========== End Online College Services ===========*/
+/*========== Homepage Circle Content ===========*/
+.textCenter{
+  text-align:center;
+  border-style: none;
+  margin-bottom:50px;
+}
+.textCenter h2{
+  margin-top:20px;
+}
+.circular1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  background: url(/global/images/home/Fall2014-WC.jpg) center no-repeat;
+  margin: 0 auto;
+}
+.textCenter p{
+  font-size: 16px;
+  margin: 20px;
+  line-height: 130%;
+}
+
+.circular2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  background: url(/global/images/home/Fall2014-CS.jpg) center no-repeat;
+  margin: 0 auto;
+}
+.circular3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  -webkit-border-radius: 125px;
+  -moz-border-radius: 125px;
+  background: url(/global/images/home/Fall2014-GS.jpg) center no-repeat;
+  margin: 0 auto;
+}
+/*========== End Homepage Circle Content ===========*/
+/*========== Homepage Admissions Bar ===========*/
+.admissions-promo-bar{
+  text-align: center;
+  padding: 5px;
+  background: #E7EFF3;
+}
+
+.admissions-promo-bar ul{
+  list-style: none;
+  padding: 0 1em;
+  display: inline-block;
+  margin: 10px 0px;
+  font-family: 'open sans condensed', sans-serif;
+}
+
+.admissions-promo-bar li{
+  display: inline;
+  margin: 0 10px 0 0;
+}
+
+.admissions-promo-bar a {
+  background: #f78d1d;
+  height: 40px;
+  width: 150px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+  font-family:'open sans';
+  text-align: center;
+  line-height: 40px;
+  margin: 5px 0;
+}
+
+.admissions-promo-bar a:hover{
+  background: #f47c20;
+}
+/*========== End Homepage Admissions Bar ===========*/
+/* ============= Redesign - Academic Program ============== */
+.programImageStyle{
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 1px 1px #C0C0C0; 
+  width: 120px;
+  float: left;
+  margin: 0px 20px 10px 0px;  
+}
+/* ============= End Academic Program Redesign ============== */
+
+/* ========= Redesign - Side Navigation Style ======================= */
+.sideNav{margin:10px 0px;}
+.sideNav ul{padding:0px 0px; margin:0px 0px 0px 0px;font-family: 'Open Sans Condensed', sans-serif;font-size: 18px;}
+
+/* ========= First Level ========= */
+.sideNav ul li{list-style-type:none; margin-bottom:0px;}
+.sideNav ul li a{background-color: #D4E7F0;color:#022253; padding: 10px 10px 10px 20px; display:block;border-bottom: 1px solid #fff;}
+.sideNav ul li a:hover{background-color: #6394bf; color:#fff;}
+.sideNav ul li.active a{background-color: #6394bf; color:#fff;}
+
+/* ========= Second Level ========= */
+.sideNav ul li.active li a{color:#022253; background-color: #B4D5E5; border-left: 10px solid #fff;}
+.sideNav ul li.active li a:hover{background-color: #6394bf; color:#fff;}
+.sideNav ul li.active li.active a{background-color: #6394bf; color:#fff;}
+
+/* ========= Third Level ========= */
+.sideNav ul li.active li.active li a{color:#000; border-left: 20px solid #fff; background-color:#E8F1F5;}
+.sideNav ul li.active li.active li.active a{background: #6394bf; color:#fff;}
+.sideNav ul li.active li.active li a:hover{background: #6394bf; color:#fff;}
+
+/* ========= End Redesign - Side Navigation Styles ======================= */
+
+/* Subpage Heading h1 */
+.subpage-h-container{
+  border-bottom: 3px solid #003366;
+  margin-bottom: 20px;
+}
+.subpage-h-container h1.subpage-h1{
+  color: #003366;
+  font-size: 35px;
+  line-height: 35px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* ========= Redesign - Admissions Side Nav ======================= */
+.admissionsSideNav{
+  margin:10px 0px 0px 0px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+}
+
+.admissionsSideNav .heading{
+  background: #003366;
+}
+
+.admissionsSideNav .heading .headingText{
+  padding: 20px 10px 20px 20px;
+  color:#003366;  
+  display:block; 
+  border-bottom: solid 1px #fff;
+  font-size: 22px;
+  color: #ffffff;  
+  line-height: 1;
+}
+.admissionsSideNav ul{margin:0px 0px 0px 0px;}
+.admissionsSideNav ul li{margin-bottom:0px;}
+.admissionsSideNav ul li a{background-color: #ffb519; color:#003366; padding: 10px 10px 10px 20px; display:block; border-bottom: solid 1px #fff; font-size: 16px;}
+.admissionsSideNav ul li a:hover,.admissionsSideNav ul li.active a{background-color: #FDE4AF;}
+/* ========= End Redesign - Admissions Side Nav ===================*/
+
+/* =========== Redesign - Program Contact Info ==============*/
+.progContact{background: #86BAD5;color: #003366; padding:  0 0 10px 0;margin: 10px 0;}
+.progContact a{color:#fff;}
+.progContact a img{margin:10px 0px 0px 0px;}
+.progContact h2{line-height: 1; border-bottom: 1px solid #fff; padding: 20px; background: #003366; color: #fff; font-size: 22px; font-weight: bold;}
+.progContact h3{color: #003366; line-height:1; padding:10px 20px 0px 20px; font-weight:bold; font-family: 'open sans'; font-size: 14px;}
+.progContact h4{line-height: 1; color: #003366; padding:10px 0px 0px 20px; font-weight:bold; font-family: 'open sans'; font-size: 12px;}
+.progContact p{padding: 0px 20px;}
+
+/* =========== End Redesign - Program Contact Info ==============*/
+
+/* ========== Footer =========== */
+#footerContent{
+  width: 210px;
+  padding: 50px 20px 30px 0px;
+  float: left;
+}
+
+#footerHeading{
+  padding-bottom: 30px;
+}
+#footerNoHeading{
+  padding-bottom: 30px;
+}
+.footerSocialMedia{
+  margin: 0px 15px 0px 0px;
+  float:left;
+}
+.footerSocialMedia a:hover{
+  opacity: .8;
+  filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+.footerWrapper{
+  color: #fff;
+  margin-top:0;
+  background: url('/responsive/img/AC-176-20.jpg') no-repeat top fixed; 
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  padding: 100px 0;
+}
+.footerWrapper h3{
+  color:#fff;
+}
+.footerWrapper p{
+  color:#fff;
+}
+.footerWrapper a{
+ color: #f47a20; 
+}
+.footerDivider{
+  margin-top:50px;
+  border-top: 1px solid #ffe5b2;
+  padding: 10px 0px;
+}
+/*========== End Homepage Footer Content ===========*/
+/*============ Footer Links ===============*/
+.footer-links{
+  text-align:right;
+}
+.footer-links a{
+  color:#f47a20; 
+  text-decoration:none;
+  padding:0px 8px 0px 0px; 
+  background:url(/global/images/template/footer_pipe.gif) no-repeat top right;
+}
+.footer-links a.last{
+  padding:0px 0px 0px 4px; 
+  background:none;
+}
+.footer-links a:hover{
+  text-decoration:underline;
+}
+
+/*========== School Logo ===========*/
+#cseLogo{
+  margin: 10px 0;
+}
+
+/* ========= HP Circle Animation ========= */
+.round-div{
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 99;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 500px;
+  border-radius: 900px;
+  border: 104px solid #fff;
+  border-image: none;
+  top: -64px;
+  left: -64px;
+}
+.circle-wrapper {
+  width: 280px;
+  max-width: 100%;
+  height: 280px;
+  position: relative;
+  left: -1px;
+  top: 0px;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  margin: auto;
+}
+.content-wrapper:hover .round-div{
+  -webkit-transform: scale(1.4);
+  -moz-transform: scale(1.4);
+  -ms-transform: scale(1.4);
+  -o-transform: scale(1.4);
+  transform: scale(1.4);
+}
+.content-wrapper{
+  text-align:center;
+}
+/* =========== Accordion ========== */
+#cseAccordion h3,
+#cseAccordion2 h3{
+  margin-top:20px;
+}
+#cseAccordion .ui-state-default,
+#cseAccordion .ui-widget-content .ui-state-default,
+#cseAccordion .ui-widget-header .ui-state-default,
+#cseAccordion2 .ui-state-default,
+#cseAccordion2 .ui-widget-content .ui-state-default,
+#cseAccordion2 .ui-widget-header .ui-state-default{
+  border:none;
+  font-size: 20px;
+  border-bottom: 1px solid #d3d3d3;
+  background: none;
+  font-weight: normal;
+  color: #005bba;
+}
+#cseAccordion .ui-state-default a,
+#cseAccordion .ui-state-default a:link,
+#cseAccordion .ui-state-default a:visited,
+#cseAccordion2 .ui-state-default a,
+#cseAccordion2 .ui-state-default a:link,
+#cseAccordion2 .ui-state-default a:visited{
+  color: #005bba;
+  font-size: 20px;
+  text-decoration: none;
+}
+#cseAccordion .ui-state-hover,
+#cseAccordion .ui-widget-content .ui-state-hover,
+#cseAccordion .ui-widget-header .ui-state-hover,
+#cseAccordion .ui-state-focus,
+#cseAccordion .ui-widget-content .ui-state-focus,
+#cseAccordion .ui-widget-header .ui-state-focus,
+#cseAccordion2 .ui-state-hover,
+#cseAccordion2 .ui-widget-content .ui-state-hover,
+#cseAccordion2 .ui-widget-header .ui-state-hover,
+#cseAccordion2 .ui-state-focus,
+#cseAccordion2 .ui-widget-content .ui-state-focus,
+#cseAccordion2 .ui-widget-header .ui-state-focus{
+  border:none;
+  border-bottom: 1px solid #999999;
+  background: none;
+  font-weight: normal;
+  color: #005bba;
+  transition-duration: 1.2s;
+}
+#cseAccordion .ui-state-hover a,
+#cseAccordion .ui-state-hover a:hover,
+#cseAccordion .ui-state-hover a:link,
+#cseAccordion .ui-state-hover a:visited,
+#cseAccordion .ui-state-focus a,
+#cseAccordion .ui-state-focus a:hover,
+#cseAccordion .ui-state-focus a:link,
+#cseAccordion .ui-state-focus a:visited,
+#cseAccordion2 .ui-state-hover a,
+#cseAccordion2 .ui-state-hover a:hover,
+#cseAccordion2 .ui-state-hover a:link,
+#cseAccordion2 .ui-state-hover a:visited,
+#cseAccordion2 .ui-state-focus a,
+#cseAccordion2 .ui-state-focus a:hover,
+#cseAccordion2 .ui-state-focus a:link,
+#cseAccordion2 .ui-state-focus a:visited{
+  color: #005bba;
+  text-decoration: none;
+}
+#cseAccordion .ui-state-active,
+#cseAccordion .ui-widget-content .ui-state-active,
+#cseAccordion .ui-widget-header .ui-state-active,
+#cseAccordion2 .ui-state-active,
+#cseAccordion2 .ui-widget-content .ui-state-active,
+#cseAccordion2 .ui-widget-header .ui-state-active{
+  xborder-bottom: 1px solid #aaaaaa;
+  border: none;
+  background: none;
+  font-weight: normal;
+  color: #005bba;
+}
+#cseAccordion .ui-state-active a,
+#cseAccordion .ui-state-active a:link,
+#cseAccordion .ui-state-active a:visited,
+#cseAccordion2 .ui-state-active a,
+#cseAccordion2 .ui-state-active a:link,
+#cseAccordion2 .ui-state-active a:visited{
+  color: #005bba;
+  text-decoration: none;
+}
+#cseAccordion .ui-widget-content,
+#cseAccordion2 .ui-widget-content{
+  border:none;
+  border-bottom: 1px solid #aaaaaa;
+  background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+  color: #222222;
+}
+#cseAccordion .ui-widget-content a,
+#cseAccordion2 .ui-widget-content a{
+color: #005bba;
+}
+/* Corner radius */
+#cseAccordion .ui-corner-all,
+#cseAccordion .ui-corner-top,
+#cseAccordion .ui-corner-left,
+#cseAccordion .ui-corner-tl,
+#cseAccordion2 .ui-corner-all,
+#cseAccordion2 .ui-corner-top,
+#cseAccordion2 .ui-corner-left,
+#cseAccordion2 .ui-corner-tl{
+  border-top-left-radius: 0;
+}
+#cseAccordion .ui-corner-all,
+#cseAccordion .ui-corner-top,
+#cseAccordion .ui-corner-right,
+#cseAccordion .ui-corner-tr,
+#cseAccordion2 .ui-corner-all,
+#cseAccordion2 .ui-corner-top,
+#cseAccordion2 .ui-corner-right,
+#cseAccordion2 .ui-corner-tr{
+  border-top-right-radius: 0;
+}
+#cseAccordion .ui-corner-all,
+#cseAccordion .ui-corner-bottom,
+#cseAccordion .ui-corner-left,
+#cseAccordion .ui-corner-bl,
+#cseAccordion2 .ui-corner-all,
+#cseAccordion2 .ui-corner-bottom,
+#cseAccordion2 .ui-corner-left,
+#cseAccordion2 .ui-corner-bl{
+  border-bottom-left-radius: 0;
+}
+#cseAccordion .ui-corner-all,
+#cseAccordion .ui-corner-bottom,
+#cseAccordion .ui-corner-right,
+#cseAccordion .ui-corner-br,
+#cseAccordion2 .ui-corner-all,
+#cseAccordion2 .ui-corner-bottom,
+#cseAccordion2 .ui-corner-right,
+#cseAccordion2 .ui-corner-br{
+  border-bottom-right-radius: 0;
+}
+/* =============== End Accordion =============== */
+
+/* =============== tables ============== */
+table.one{
+  border-collapse: collapse;
+  width:100%;
+  margin-bottom:20px;
+  }
+table.one td, th {
+  padding: 0.5rem;
+  text-align: left;
+}
+table.one tr.border_bottom td {
+  border-bottom:1pt dashed #C0C0C0;
+}
+/* ============ Catalog Course Accordion =========== */
+#courseAccordion .ui-state-default,
+#courseAccordion .ui-widget-content .ui-state-default,
+#courseAccordion .ui-widget-header .ui-state-default {
+  font-weight: normal;
+}
+#courseAccordion .ui-state-default a,
+#courseAccordion .ui-state-default a:link,
+#courseAccordion .ui-state-default a:visited {
+  color: #555555;
+  text-decoration: none;
+}
+#courseAccordion .ui-state-hover,
+#courseAccordion .ui-widget-content .ui-state-hover,
+#courseAccordion .ui-widget-header .ui-state-hover,
+#courseAccordion .ui-state-focus,
+#courseAccordion .ui-widget-content .ui-state-focus,
+#courseAccordion .ui-widget-header .ui-state-focus {
+  background: #dadada;
+  font-weight: normal;
+  color: #212121;
+}
+/* ============== Keybord Access ============= */
+a:focus {
+  color: #3399cc;
+}
+.admissionsSideNav ul li a:focus{background-color: #FDE4AF;}
+.sideNav ul li a:focus{background-color: #6394bf;}
+/*End Keybord Access*/
+
+/*Admissions Blue Buttons - font size 20px*/
+a.admissions-btn1{
+  background-color: #005bba;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+
+.admissions-btn1:hover, .admissions-btn1:focus, .admissions-btn1:active{
+  color: #fff;
+  background-color: #054D96;
+  text-decoration: none;
+}
+/*Admissions Blue Buttons - font size 18px*/
+a.admissions-btn2{
+  background-color: #005bba;
+  width:90%;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  margin-bottom: 20px;
+}
+
+.admissions-btn2:hover, .admissions-btn2:focus, .admissions-btn2:active{
+  color: #fff;
+  background-color: #054D96;
+  text-decoration: none;
+}
+/* IT Login Buttons */
+.it-logins a.admissions-btn1{
+  width: 180px;
+  float: left;
+}
+/* Hide search submit button */
+input[type="submit"].search-button{
+  display:none;
+}
+/* Hide calendar left nav, calendar categories, tags, browse button */
+.calendarFiltersBox,
+a.calendar-btn.hide-calendar-btn,
+#moreOptionsButton{
+  display:none;
+}
+/* Hide ongoing events if there is no events listed */
+.hide-listOngoing{
+  display:none;
+}
+/* Mega menu */
+.cse-mega-menu {
+  width: 100%;
+  background-color: #036;  
+  border-top:1px solid #fff;
+}
+
+/* general ul style */
+.cse-mega-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* first level ul style */
+.cse-mega-menu > ul,
+.cse-mega-menu .cse-mega-menu-inner {
+  margin: 0 auto;
+  padding: 0 1.875em;
+}
+
+.cse-mega-menu > ul > li {
+  display: inline-block;
+}
+
+.cse-mega-menu > ul > li > a {
+  padding: 17px 10px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+.cse-mega-menu > ul > li > a:hover,
+.cse-mega-menu > ul > li > a:focus{
+  color: #ffb519;
+}
+
+.cse-mega-menu > ul > li.cse-mega-menu-open > a,
+.cse-mega-menu > ul > li.cse-mega-menu-open > a:hover {
+  color: #ffb519;
+}
+
+.cse-mega-menu-sub a:hover,
+.cse-mega-menu-sub a:focus{
+  color: #003366;
+  background: #ffb519;
+}
+
+.cse-mega-menu > ul > li.cse-mega-menu-open:after{
+  content:'';
+display:block;
+position:relative;
+top:0px; /*should be set to -border-width x 2 */
+left: 40%;
+width:0;
+height:0;
+border-color: transparent transparent #e7e7e7 transparent;
+border-style: solid;
+border-width: 10px;
+margin: -20px 0 0 0;
+}
+
+/* sub-menu */
+.cse-mega-menu .cse-mega-menu-sub {
+  display: none;
+  position: absolute;
+  background: #e7e7e7;
+  width: 960px;
+  left: 0px;
+}
+
+.cse-mega-menu-open .cse-mega-menu-sub {
+  display: block;
+  padding-bottom: 3em;
+}
+
+.cse-mega-menu .cse-mega-menu-inner > div {
+  width: 22%;
+  float: left;
+  padding: 0 0.8em 0;
+}
+
+.cse-mega-menu .cse-mega-menu-inner:before,
+.cse-mega-menu .cse-mega-menu-inner:after {
+  content: " ";
+  display: table;
+}
+
+.cse-mega-menu .cse-mega-menu-inner:after {
+  clear: both;
+}
+
+.cse-mega-menu .cse-mega-menu-inner > div a {
+  line-height: 1.3em;
+  font-size: 1.1em;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.cse-mega-menu-sub h4{
+  color: #ffb519;
+  padding: 2em 0 0.6em;
+  margin: 0;
+  font-size: 120%;
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+/* Mobile showhide menus */
+.showhide,
+.showhideSub{
+  display: none;
+  width: 100%;
+  height: 40px;
+  color: #fff; 
+  margin-bottom:4px;
+  font-size: 20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.showhide{
+  /*background: #ffb519;*/
+  border-top:1px solid #fff;
+}
+.showhideSub{
+  background: #6394bf;
+}
+.showhide span.title,
+.showhideSub span.title{
+    margin: 10px 20px;
+    float: right;
+  }
+.showhide span.icon,
+.showhideSub span.icon{
+    padding: 10px 20px;
+  cursor: pointer;
+    float: left;
+}
+.showhide .icon em,
+.showhideSub .icon em{
+    margin-bottom: 3px;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #fff;
+}
+
+
+#giveToCSE1{
+  display:none;
+}
+#giveToCSE2{
+  background-color: #ffb519;
+  color: #003366;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  margin: 27px 0;
+  float: right;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  border-radius: 4px 4px 4px 4px;
+}
+#giveToCSE2 a:hover{
+opacity: .8;
+filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+.headerWrap2 h3{
+  padding-left: 20px;
+  color:#fff;
+}
+
+/*Top Search Bar - Desktop*/
+.searchTop {
+  display:block;
+  width:100%;
+}
+
+.searchTop input[type="text"] {
+    background-size: 25px 25px;
+    border: 1px solid #d1d1d1;
+    color: #bebebe;
+    float:right;
+    width: 100%;
+    margin: 30px 0px;
+    padding: 6px 10px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    }
+/*Top Circle Buttons - Apply, Events, Give*/
+.header-circles{
+  text-align:center;
+}
+.header-circles .circle{
+  width: 45px;
+  height: 45px;
+  border-radius: 45px;
+  -moz-border-radius: 45px;
+  -webkit-border-radius: 45px;
+  background-color: #003366;
+  color: #fff;
+  display: inline-block;
+  line-height:45px;
+  vertical-align:top;
+  margin: 20px 5px;
+  border: 2px solid #fff;
+}
+
+.header-circles .circle a {
+  text-decoration:none;
+  color:#fff;
+}
+
+.header-circles .circle a:focus {
+  color:#ffb519;
+}
+
+.header-circles .circle:hover {
+  background-color: #ffb519;
+  color:#003366;
+}
+.header-circles .circle .text{
+  font-family:"open sans condensed";
+  font-size: 16px;
+  font-weight:bold;
+}
+.header-circles .circle.search-circle{
+  display:none;
+}
+/* Social Media Footer */
+ul.social-media-footer li{
+  line-height: 48px;
+  display: inline-block;
+  margin-bottom: 12px;
+  height: 48px;
+  vertical-align: top;
+  width: 100%;
+}
+/* Go to the top button */
+#goTop{
+  display: none;
+  font-size: 20px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  background:#3c3c3c;
+  opacity: 0.7;
+  padding:10px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+}
+/* Calendar */
+
+#full-calendar{display:block;}
+#mobile-calendar{display:none;}
+.viewBox{display:block;}
+/* Error Pages */
+.error-pages{
+  font-family: 'Open Sans Condensed', sans-serif; 
+}
+.error-pages h1{
+  font-size: 50px; 
+  margin: 50px 0; 
+  color: #003366;"
+}
+.error-pages h2{
+  font-size: 34px; 
+  color: #f06015; 
+  margin: 0 0 20px 0;
+}
+.error-pages .admissions-btn1{
+  font-family: 'Open Sans', sans-serif; 
+}
+.error-pages ul{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* =============== Group ========================= */
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Media Queries */
+@media only screen and (min-width: 960px) { 
+  #cse-mega-menu {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) { 
+  .round-div{
+    top: -68px;
+    left: -68px;
+  }
+
+  .content-wrapper:hover .round-div{
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+/*Mega menus for mobile devices*/
+  #cse-mega-menu {
+    display: none;
+  }
+  .cse-mega-menu {
+    font-size: 100%;
+    border: none;
+  }
+  .cse-mega-menu > ul,
+  .cse-mega-menu .cse-mega-menu-inner {
+    width: 100%;
+    padding: 0;
+  }
+  .cse-mega-menu .cse-mega-menu-inner > div {
+    width: 30%;
+    padding: 0 0 0 10%;
+  }
+  .cse-mega-menu .cse-mega-menu-inner {
+    font-size: 100%;
+  }
+  .cse-mega-menu > ul > li {
+    display: block;
+    border-bottom: 4px solid #003366;
+  }
+  .cse-mega-menu > ul > li > a { 
+    display: block;
+    padding: 2% 10%;
+    border-bottom: 1px solid #fff;
+  }
+
+  .cse-mega-menu .cse-mega-menu-sub { 
+    position: relative;
+    width:748px;
+    left:0px;
+  }
+
+  .cse-mega-menu-sub h4 {
+    padding-top: 0.6em;
+  }
+/* Mobile showhide menus */
+  .showhide{
+    display: block;
+  }
+
+  #cseLogo img{
+    float: left;
+  }
+  #giveToCSE1{
+    display:none;
+  }
+  #giveToCSE2{
+    background-color: #ffb519;
+    color: #003366;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 27px 0 10px 0;
+    float: right;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+  }
+  #giveToCSE2 a:hover{
+    opacity: .8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+  }
+
+/*--calendar show hide--*/
+
+  #weeklyViewBtn{
+    display: none;
+  }
+  #monthlyViewBtn{
+    display: none;
+  }
+
+  #calendarNavigation{
+    display: none;
+  }
+  #calendarSearch{
+    display:none;
+  }
+  #listOngoing{
+    display: none;
+  }
+  #captionRSS{
+    display: none;
+  }
+  #captionDayNav{
+    display: none;
+  }
+  #moreOptionsButton{
+    display: none;
+  }
+  .viewBox{display:none;}
+  .searchBox{float:left;}
+
+  #full-calendar{display:none;}
+  #mobile-calendar{display:block;}
+  /*--end calendar show hide--*/
+}
+/*@media screen and (max-width: 43em) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {   
+  .round-div{
+    top: -68px;
+    left: -68px;
+  }
+/*Hide images disply on mobile devices*/
+ #mobileImage img{
+    display:none;
+  }
+  .content-wrapper:hover .round-div{
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }  
+  #cse-mega-menu{
+    display: none;
+  }
+  .sideNav{
+    display:none;
+  }
+  .admissionsSideNav{
+    display:none;
+  }
+  .progContact{
+    display:none;
+  }
+  .cse-mega-menu {
+    font-size: 100%;
+    border: none;
+  }
+
+  .cse-mega-menu > ul,
+  .cse-mega-menu .cse-mega-menu-inner {
+    width: 100%;
+    padding: 0;
+  }
+  .cse-mega-menu .cse-mega-menu-inner > div {
+    width: 90%;
+    padding: 0 0 0 10%;
+  }
+  .cse-mega-menu .cse-mega-menu-inner {
+    font-size: 100%;
+  }
+
+  .cse-mega-menu > ul > li {
+    display: block;
+    border-bottom: 4px solid #003366;
+  }
+
+  .cse-mega-menu > ul > li > a { 
+    display: block;
+    padding: 4% 10%;
+    border-bottom: 1px solid #fff;
+  }
+
+  .cse-mega-menu .cse-mega-menu-sub { 
+    position: relative;
+    width:420px;
+    left:0px;
+  }
+
+  .cse-mega-menu-sub h4 {
+    padding-top: 0.6em;
+  }
+
+/* Mobile showhide menus */
+  .showhide{
+    display: block;
+  }
+ 
+  .showhideSub{
+    display: block;
+    margin-top: 10px;
+  }
+  
+  #cseLogo img{
+    display:block;
+    margin:auto;
+  }
+  #giveToCSE1{
+    display:block;
+    background-color: #ffb519;
+    color: #003366;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px 0;
+    float: right;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+  }
+  #giveToCSE1 a:hover{
+    opacity: .8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+  }
+  #giveToCSE2{
+    display:none;
+  }
+  .admissions-promo-bar li a{
+    width:100%;
+  }
+  .footer-links {
+    text-align:left;  
+  }
+  .searchTop {
+    display:none;
+  }
+  .searchTop input[type="text"] {
+    width: 90%;
+    float:none;
+    margin:0px auto;
+  }
+  .header-circles .circle.search-circle{
+    display:inline-block;
+  }
+
+/* Homepage News and Events */
+.hp-news-listItem img{
+  width: 400px;
+  padding:10px;
+  float:left;
+}
+
+.hp-news-listItem .info{
+  float: left;
+  width: 400px;
+  margin: 10px;
+}
+/* Homepage About CSE */
+.numberItem{
+  margin-bottom:10px;
+}
+.about-cse-hp{
+  margin: 0;
+}
+/*--calendar show hide--*/
+
+  #weeklyViewBtn{
+    display: none;
+  }
+  #monthlyViewBtn{
+    display: none;
+  }
+
+  #calendarNavigation{
+    display: none;
+  }
+  #calendarSearch{
+    display:none;
+  }
+  #listOngoing{
+    display: none;
+  }
+  #captionRSS{
+    display: none;
+  }
+  #captionDayNav{
+    display: none;
+  }
+  #moreOptionsButton{
+    display: none;
+  }
+  .viewBox{float:left;}
+  .searchBox{float:left;}
+  #full-calendar{display:none;}
+  #mobile-calendar{display:block;}
+
+  /*--end calendar show hide--*/
+}
+@media only screen and (max-width: 479px) {
+
+  .round-div{
+    top: -68px;
+    left: -68px;
+  }
+/*Hide images disply on mobile devices*/
+  #mobileImage img{
+    display:none;
+  }
+  .content-wrapper:hover .round-div{
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+  }
+  .headlineHP{
+    font-size:40px;
+    margin: 50px 0px 30px 0px;
+  }
+  #cse-mega-menu {
+    display: none;
+  }
+  .sideNav{
+    display:none;
+  }
+  .admissionsSideNav{
+    display:none;
+  }
+  .progContact{
+    display:none;
+  }
+  .cse-mega-menu {
+    font-size: 100%;
+    border: none;
+  }
+  .cse-mega-menu .cse-mega-menu-inner > div {
+    width: 90%;
+    padding: 0 0 0 10%;
+  }
+  .cse-mega-menu > ul,
+  .cse-mega-menu .cse-mega-menu-inner {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cse-mega-menu .cse-mega-menu-inner {
+    font-size: 100%;
+  }
+
+  .cse-mega-menu > ul > li {
+    display: block;
+    border-bottom: 4px solid #003366;
+  }
+
+  .cse-mega-menu > ul > li > a { 
+    display: block;
+    padding: 5% 10%;
+    border-bottom: 1px solid #fff;
+  }
+
+  .cse-mega-menu .cse-mega-menu-sub { 
+    position: relative;
+    width:300px;
+    left:0;
+  }
+
+  .cse-mega-menu-sub h4 {
+    padding-top: 0.6em;
+  }
+
+/* Mobile showhide menus */
+  .showhide{
+    display: block;
+  }
+  .showhideSub{
+    display: block;
+    margin-top: 10px;
+  }
+
+  #cseLogo img{
+    display:block;
+    margin:auto;
+  }
+  #giveToCSE2{
+    display:none;
+  }  
+  #giveToCSE1{
+    display:block;
+    background-color: #ffb519;
+    color: #003366;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 10px 0;
+    float: right;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  .admissions-promo-bar li a{
+    width:100%;
+  }
+  .footer-links {
+    text-align:left;  
+  }
+  .searchTop {
+    display:none;
+  }
+  .searchTop input[type="text"] {
+    width: 90%;
+    float:none;
+    margin:0px auto;
+  }
+  .header-circles .circle.search-circle{
+    display:inline-block;
+  }
+  /* News and Events */
+  .hp-news-listItem img{
+    width: 280px;
+    padding:10px;
+    float:left;
+  }
+
+  .hp-news-listItem .info{
+    float: left;
+    width: 280px;
+    margin: 10px;
+  }
+  /* Homepage About CSE */
+  .numberItem{
+    margin-bottom:10px;
+  }
+  .about-cse-hp{
+    margin: 0;
+  }
+  /*--calendar show hide--*/
+
+  #weeklyViewBtn{
+    display: none;
+  }
+  #monthlyViewBtn{
+    display: none;
+  }
+
+  #calendarNavigation{
+    display: none;
+  }
+  #calendarSearch{
+    display:none;
+  }
+  #listOngoing{
+    display: none;
+  }
+  #captionRSS{
+    display: none;
+  }
+  #captionDayNav{
+    display: none;
+  }
+  #moreOptionsButton{
+    display: none;
+  }
+  .viewBox{float:left;}
+  .searchBox{float:left;}
+  #full-calendar{display:none;}
+  #mobile-calendar{display:block;}
+  /*--end calendar show hide--*/
+
+  /* Responsive Forms*/
+  form dt{
+    width: 100%;
+  }
+  form dt img{
+    float:left:
+  }
+  form dd{
+    width: 100%;
+  }
+  .btnWrap{
+    margin-left: 0;
+  }
+  /*Hide image banner arrows*/
+  .flex-direction-nav .flex-prev, 
+  .flex-direction-nav .flex-next{
+    display:none;
+  }
+
+}
+
+.noMargin{margin-left:0px; margin-right:0px;}
+/* Print */
+@media print {
+  body{
+      color:#000;
+      backgrond:#fff;
+  }
+  .cse-mega-menu, .sideNav, .admissionsSideNav, img, .header-circles, .searchTop{
+      display:none;
+  }
+}
