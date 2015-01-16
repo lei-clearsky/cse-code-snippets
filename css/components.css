@@ -358,7 +358,7 @@
 /* =============== About CSE/By the Numbers ========================= */
 .about-cse-hp-wrap{
   padding: 100px 0 50px 0;
-  background: url('/global/images/home/AC-PhotoMerge.jpg') no-repeat 50% 50% fixed; 
+  background: url('http://cmsdev2.cse.edu/global/images/home/AC-PhotoMerge.jpg') no-repeat 50% 50% fixed; 
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -460,7 +460,7 @@ text-decoration: none;
   border-radius: 125px;
   -webkit-border-radius: 125px;
   -moz-border-radius: 125px;
-  background: url(/global/images/home/Fall2014-WC.jpg) center no-repeat;
+  background: url(http://www.cse.edu/global/images/home/Fall2014-WC.jpg) center no-repeat;
   margin: 0 auto;
 }
 .textCenter p{
@@ -475,7 +475,7 @@ text-decoration: none;
   border-radius: 125px;
   -webkit-border-radius: 125px;
   -moz-border-radius: 125px;
-  background: url(/global/images/home/Fall2014-CS.jpg) center no-repeat;
+  background: url(http://www.cse.edu/global/images/home/Fall2014-CS.jpg) center no-repeat;
   margin: 0 auto;
 }
 .circular3 {
@@ -484,7 +484,7 @@ text-decoration: none;
   border-radius: 125px;
   -webkit-border-radius: 125px;
   -moz-border-radius: 125px;
-  background: url(/global/images/home/Fall2014-GS.jpg) center no-repeat;
+  background: url(http://www.cse.edu/global/images/home/Fall2014-GS.jpg) center no-repeat;
   margin: 0 auto;
 }
 /*========== End Homepage Circle Content ===========*/
@@ -632,7 +632,7 @@ text-decoration: none;
 .footerWrapper{
   color: #fff;
   margin-top:0;
-  background: url('/responsive/img/AC-176-20.jpg') no-repeat top fixed; 
+  background: url('http://cmsdev2.cse.edu/responsive/img/AC-176-20.jpg') no-repeat top fixed; 
   background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -662,7 +662,7 @@ text-decoration: none;
   color:#f47a20; 
   text-decoration:none;
   padding:0px 8px 0px 0px; 
-  background:url(/global/images/template/footer_pipe.gif) no-repeat top right;
+  background:url(http://cmsdev2.cse.edu/global/images/template/footer_pipe.gif) no-repeat top right;
 }
 .footer-links a.last{
   padding:0px 0px 0px 4px; 

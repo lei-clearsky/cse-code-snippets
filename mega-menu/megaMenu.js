@@ -1,4 +1,4 @@
-var megaMenu=(function($) {
+var megaMenu = (function($) {
 
   var b = $("#cse-mega-menu > ul > li"),
       g = b.children("a.dropdown"),

@@ -58,7 +58,7 @@ html[xmlns] .slides {display: block;}
     height: 0;
     margin-bottom: 0px;
 }
-.flex-direction-nav a  { background: url(/responsive/img/bg_direction_nav_invert.png) no-repeat 0 0; display: block; width: 30px; height: 30px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
+.flex-direction-nav a  { background: url(http://www.cse.edu/responsive/img/bg_direction_nav_invert.png) no-repeat 0 0; display: block; width: 30px; height: 30px; margin: -20px 0 0; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8); text-shadow: 1px 1px 0 rgba(255,255,255,0.3); -webkit-transition: all .3s ease; -moz-transition: all .3s ease; transition: all .3s ease; }
 .flex-direction-nav a {width: 30px; height: 30px; margin: -20px 0 0; display: block; background: url(/responsive/img/bg_direction_nav_invert.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: 100% 0; right: 5px; opacity: 1;}
 .flex-direction-nav .flex-prev {left: 5px; opacity: 1;}
