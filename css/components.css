@@ -1092,6 +1092,7 @@ margin: -20px 0 0 0;
 .showhideSub span.title{
     margin: 10px 20px;
     float: right;
+    font-weight: 700;
   }
 .showhide span.icon,
 .showhideSub span.icon{
@@ -1106,6 +1107,72 @@ margin: -20px 0 0 0;
     width: 20px;
     height: 2px;
     background: #fff;
+}
+/* Main mobile menu animation */
+.cse-menu-trigger {
+  position: absolute;
+  top: 0;
+  margin-left: 20px;
+  display: block;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.cse-menu-trigger span {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 4px;
+  margin-top: -2px;
+  background-color: #fff;
+  font-size: 0px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.cse-menu-open .cse-menu-trigger span {
+  background-color: transparent;
+}
+
+.cse-menu-trigger span:before,
+.cse-menu-trigger span:after {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+.cse-menu-trigger span:before {
+  -webkit-transform: translateY(-250%);
+  transform: translateY(-250%);
+}
+
+.cse-menu-trigger span:after {
+  -webkit-transform: translateY(250%);
+  transform: translateY(250%);
+}
+
+.cse-menu-open .cse-menu-trigger span:before {
+  -webkit-transform: translateY(0) rotate(45deg);
+  transform: translateY(0) rotate(45deg);
+}
+
+.cse-menu-open .cse-menu-trigger span:after {
+  -webkit-transform: translateY(0) rotate(-45deg);
+  transform: translateY(0) rotate(-45deg);
 }
 
 

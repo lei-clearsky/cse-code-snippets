@@ -38,12 +38,17 @@ jQuery.noConflict();
     e.stopPropagation();
     e.preventDefault();
     $(".searchTop").toggle();
-  })
+  });
 
-  $(".showhide .icon").on("click touchstart", function(e){
+  $(".showhide .cse-menu-trigger").on("click touchstart", function(e){
     e.stopPropagation(); 
     e.preventDefault();
-    $("#cse-mega-menu").toggle();
+    $("#cbp-hrmenu").toggle();
+    if ($(".showhide").hasClass("cse-menu-open")){
+      $(".showhide").removeClass("cse-menu-open");
+    }else{
+      $(".showhide").addClass("cse-menu-open");
+    }
 
   });
 
