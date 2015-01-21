@@ -43,7 +43,7 @@ jQuery.noConflict();
   $(".showhide .cse-menu-trigger").on("click touchstart", function(e){
     e.stopPropagation(); 
     e.preventDefault();
-    $("#cbp-hrmenu").toggle();
+    $("#cse-mega-menu").toggle();
     if ($(".showhide").hasClass("cse-menu-open")){
       $(".showhide").removeClass("cse-menu-open");
     }else{
