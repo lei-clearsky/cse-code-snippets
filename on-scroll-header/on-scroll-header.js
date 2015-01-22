@@ -31,6 +31,7 @@ var onScrollHeader = (function() {
 		return window.pageYOffset || docElem.scrollTop;
 	}
 
-	initHeaderScroll();
+	//initHeaderScroll();
+	return{init: initHeaderScroll};
 
 })();
