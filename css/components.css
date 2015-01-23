@@ -1205,6 +1205,9 @@ filter: alpha(opacity=80); /* For IE8 and earlier */
 }
 
 /*Top Search Bar - Desktop*/
+.searchTopDisplay.searchTop {
+  display:block;
+}
 .searchTop {
   display:block;
   width:100%;
