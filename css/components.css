@@ -20,6 +20,16 @@
   z-index:100;
   transition: all 0.5s ease;
 }
+
+.fix-top-header .searchTop input[type="text"] {
+  margin: 11px 0;
+ }
+ .fix-top-header .searchTop {
+  width: 150px;
+  position: fixed;
+  z-index: 1000;
+ }
+
 .fix-top-header .cse-mega-menu {
   position: fixed;
   top: 0;
@@ -29,7 +39,7 @@
   transition: all 0.5s ease;
 }
 .fix-top-header .cse-mega-menu > ul > li > a{
-  font-size:1.4em;
+  font-size:1.2em;
 }
 .tower-logo{
   width:23px;
@@ -981,7 +991,7 @@ a.calendar-btn.hide-calendar-btn,
 .cse-mega-menu > ul,
 .cse-mega-menu .cse-mega-menu-inner {
   margin: 0 auto;
-  padding: 0 1.875em;
+  padding: 0;
 }
 
 .cse-mega-menu > ul > li {
@@ -1303,7 +1313,7 @@ ul.social-media-footer li{
 .error-pages h1{
   font-size: 50px; 
   margin: 50px 0; 
-  color: #003366;"
+  color: #003366;
 }
 .error-pages h2{
   font-size: 34px; 
@@ -1408,6 +1418,17 @@ ul.social-media-footer li{
   #giveToCSE2 a:hover{
     opacity: .8;
     filter: alpha(opacity=80); /* For IE8 and earlier */
+  }
+  .hp-news-listItem img{
+    width: 170px;
+    padding:10px;
+    float:left;
+  }
+
+  .hp-news-listItem .info{
+    float: left;
+    width: 300px;
+    margin: 10px 0;
   }
 
 /*--calendar show hide--*/
@@ -1576,7 +1597,7 @@ ul.social-media-footer li{
   margin: 10px;
 }
 /* Homepage About CSE */
-.numberItem{
+.column.numberItem{
   margin-bottom:10px;
 }
 .about-cse-hp{
@@ -1747,7 +1768,7 @@ ul.social-media-footer li{
     margin: 10px;
   }
   /* Homepage About CSE */
-  .numberItem{
+  .column.numberItem{
     margin-bottom:10px;
   }
   .about-cse-hp{
