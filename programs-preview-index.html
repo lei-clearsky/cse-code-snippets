@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <title>Home - College of Saint Elizabeth</title> 
+    
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- CSS
+ ================================================== -->
+  <link rel="stylesheet" href="css/skeleton.css">
+  <!-- Google font styles -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="css/components.css" />
+  <link rel="stylesheet" href="flex-slider/flex-slider.css" type="text/css" media="screen" />
+  <!-- Favicons
+  ================================================== -->
+  <link rel="shortcut icon" href="img/favicon.png">
+
+  <style>
+  .slider{
+    width: 100%;
+  }
+  .headlineHP{
+    line-height: 1;
+  }
+  .cse-mega-menu .cse-mega-menu-sub {
+    z-index: 100;
+  }
+  .cse-mega-menu > ul > li {
+    margin-bottom: 0;
+    font-family: 24px/1.22 "Open Sans Condensed", sans serif;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  ================================================== -->
+  <div class="headerWrap">
+    <div class="top-header-wrap"><!--redesign-->
+      <div class="fix-top-header-container group"></div>
+      <div class="container">
+        <div class="eight columns sticky-header">
+            <div id="cseLogo"><a href="http://www.cse.edu" title="CSE Homepage"><img src="http://cmsdev2.cse.edu/global/images/home/CSE-Header-Logo.png" alt="CSE Homepage"></a></div>               
+        </div>
+        
+        <div class="eight columns sticky-header">  
+          <div class="eight clearfix"> 
+            <div class="five columns alpha"> 
+              <div class="header-circles">  
+                <div class="circle"><div class="text"><a href="/apply/">Apply</a></div></div>    
+                <div class="circle"><div class="text"><a href="/calendar/">Events</a></div></div>
+                <div class="circle"><div class="text"><a href="/alumni/annual-fund/">Give</a></div></div>   
+                <div class="circle search-circle"><div class="text">Search</div></div>
+              </div>  
+            </div>
+            <div class="three columns omega">
+              <form method="post" name="searchForm" class="searchTop" id="searchForm" action="/search/search_results.dot">
+                <input type="text" id="googleSearchQuery" name="googleSearchQuery" placeholder="Search CSE.edu" onfocus="document.getElementById('googleSearchQuery').value='';" class="text">
+                <input type="submit" name="hidden search submit button" class="search-button" value="">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <!-- HTML Mobile Menu -->
+        <div class="sixteen columns">
+        <div class="showhide">                    
+          <!--<span class="icon"><em></em><em></em><em></em><em></em></span>-->
+          <div class="cse-menu-trigger"><span></span></div>
+          <span class="title">Main Menu</span>          
+        </div>
+        </div>
+
+        <div class="sixteen">
+          <nav id="cse-mega-menu" class="cse-mega-menu">
+            <ul>
+              <li>
+                <a href="/" class="tower-logo-display"><img src="http://cmsdev2.cse.edu/responsive/img/Tower-stickyNav.png" class="tower-logo" /></a>
+              </li>
+              <li>              
+                <a class="dropdown" href="">Admissions</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner"> 
+                    <div>
+                      <h4><a href="/admissions/">Admissions</a></h4>
+                      <ul>
+                        <li><a href="/admissions/apply.dot" title="Admissions - Apply Now">Apply Now</a></li>
+                        <li><a href="/admissions/consumer-information.dot">Consumer Information</a></li>
+                        <li><a href="/admissions/tuition-and-fees/" title="Admissions - Tuition and Fees">Tuition and Fees</a></li>
+                        <li><a href="/admissions/financial-aid/" title="Admissions - Financial Aid">Financial Aid</a></li>
+                        <li><a href="/admissions/bursar/">Bursar</a></li>
+                        <li><a href="/admissions/educational-partnerships/" title="Admissions - Educational Partnerships">Educational Partnerships</a></li>
+                        <li><a href="/admissions/policies-and-procedures.dot">Policies and Procedures</a></li>
+                        <li><a href="/admissions/special-programs.dot">Special Programs</a></li>              
+                        <li><a href="/admissions/visit-cse/">Visit CSE</a></li>
+                      </ul>
+                    </div> 
+                    <div>
+                      <h4><a href="/admissions/womens-college/">Women's College</a></h4>
+                      <ul>
+                        <li><a href="/admissions/womens-college/how-to-apply.dot" title="Women's College - How to Apply">How to Apply</a></li>
+                        <li><a href="/admissions/womens-college/why-a-womens-college.dot">Why a Women's College?</a></li>
+                        <li><a href="/admissions/womens-college/programs-of-study.dot " title="Women's College - Programs of Study">Programs of Study</a></li>
+                        <li><a href="/admissions/womens-college/enrollment-process.dot" title="Women's College - Enrollment Process">Enrollment Process</a></li>
+                        <li><a href="/admissions/military-veterans/" title="Women's College - Military/Veterans">Military/Veterans</a></li>
+                        <li><a href="/admissions/womens-college/transfer.dot" title="Women's College - Transfer Students">Transfer Students</a></li>
+                        <li><a href="/admissions/womens-college/international.dot" title="Women's College - International Students">International Students</a></li>
+                        <li><a href="/admissions/tuition-and-fees/undergraduate.dot" title="Women's College - Tuition and Fees">Tuition and Fees</a></li>
+                        <li><a href="/admissions/financial-aid/application-process/womens-college.dot" title="Women's College - Financial Aid">Financial Aid</a></li>
+                        <li><a href="http://selfservice.cse.edu/web//Admissions/Inquiry.aspx?inquiryformid=1" title="Women's College - Request Information">Request Information</a></li>
+                        <li><a href="/admissions/visit-cse/" title="Women's College - Visit CSE">Visit CSE</a></li>
+                      </ul>
+                    </div>  
+                    <div>
+                      <h4><a href="/admissions/continuing-studies/">Continuing Studies</a></h4>
+                      <ul>
+                        <li><a href="/admissions/continuing-studies/how-to-apply.dot " title="Continuing Studies - How to Apply">How to Apply</a></li>
+                        <li><a href="/admissions/continuing-studies/programs-of-study.dot" title="Continuing Studies - Programs of Study">Programs of Study</a></li>
+                        <li><a href="/admissions/continuing-studies/enrollment-process.dot" title="Continuing Studies - Enrollment Process">Enrollment Process</a></li>
+                        <li><a href="/admissions/military-veterans/" title="Continuing Studies - Military/Veterans">Military/Veterans</a></li>
+                        <li><a href="/admissions/continuing-studies/transfer.dot" title="Continuing Studies - Transfer Students">Transfer Students</a></li>
+                        <li><a href="/admissions/continuing-studies/international/" title="Continuing Studies - International Students">International Students</a></li>
+                        <li><a href="/partnerships" title="Continuing Studies - Educational Partnerships">Educational Partnerships</a></li> 
+                        <li><a href="/admissions/tuition-and-fees/undergraduate.dot" title="Continuing Studies - Tuition and Fees">Tuition and Fees</a></li>
+                        <li><a href="/admissions/financial-aid/application-process/continuing-studies.dot" title="Continuing Studies - Financial Aid">Financial Aid</a></li> 
+                        <li><a href="http://selfservice.cse.edu/web//Admissions/Inquiry.aspx?inquiryformid=3" title="Continuing Studies - Request Information" target="_blank">Request Information</a></li>
+                        <li><a href="/admissions/visit-cse/" title="Continuing Studies - Visit CSE">Visit CSE</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/admissions/graduate-studies/">Graduate Studies</a></h4>
+                      <ul>
+                        <li><a href="/admissions/graduate-studies/how-to-apply.dot" title="Graduate Studies - How to Apply">How to Apply</a></li>
+                        <li><a href="/admissions/graduate-studies/programs-of-study.dot" title="Graduate Studies - Programs of Study">Programs of Study</a></li>
+                        <li><a href="/admissions/graduate-studies/enrollment-process.dot" title="Graduate Studies - Enrollment Process">Enrollment Process</a></li>
+                        <li><a href="/admissions/military-veterans/" title="Graduate Studies - Military/Veterans">Military/Veterans</a></li>
+                        <li><a href="/admissions/graduate-studies/transfer.dot" title="Graduate Studies - Transfer Students">Transfer Students</a></li>
+                        <li><a href="/admissions/graduate-studies/international/" title="Graduate Studies - International Students">International Students</a></li>
+                        <li><a href="/partnerships" title="Graduate Studies - Educational Partnerships">Educational Partnerships</a></li>
+                        <li><a href="/admissions/tuition-and-fees/graduate-studies.dot" title="Graduate Studies - Tuition and Fees">Tuition and Fees</a></li> 
+                        <li><a href="/admissions/financial-aid/application-process/graduate-studies.dot" title="Graduate Studies - Financial Aid">Financial Aid</a></li>                        
+                        <li><a href="http://selfservice.cse.edu/web//Admissions/Inquiry.aspx?inquiryformid=3" title="Graduate Studies - Request Information" target="_blank">Request Information</a></li>
+                        <li><a href="/admissions/visit-cse/" title="Graduate Studies - Visit CSE">Visit CSE</a></li>
+                      </ul>
+                    </div>
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a class="dropdown" href="#">Academics</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner">
+                    <div>  
+                      <h4><a href="/academics">Academics Home</a></h4>
+                      <ul>
+                        <li><a href="/academics/registrar/academic-calendars.dot ">Academic Calendar</a></li>
+                        <li><a href="/academics/catalog/">Academic Catalog</a></li>
+                        <li><a href="https://moodle.cse.edu/" target="_blank">Moodle</a></li>
+                        <li><a href="/evaluations" target="_blank">Course Evaluation</a></li>
+                        <li><a href="https://selfservice.cse.edu/Web/Home.aspx" target="_blank">Self-Service</a></li>
+                        <li><a href="/academics/academic-support/">Academic Success Center</a></li>
+                        <li><a href="/academics/honors-program.dot">Honors Program</a></li>
+                        <li><a href="/academics/study-abroad.dot">Study Abroad</a></li>
+                        <li><a href="/academics/eof.dot">Educational Opportunity Fund</a></li>
+                        <li><a href="/academics/mahoney-library/">Mahoney Library</a></li>
+                        <li><a href="/academics/registrar/">Registrar</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/academics/aas/">Arts and Sciences</a></h4>
+                      <ul>
+                        <li><a href="/academics/aas/american-studies/">American Studies</a></li>
+                        <li><a href="/academics/aas/art/">Art</a></li>
+                        <li><a href="/academics/aas/biology/">Biology</a></li>
+                        <li><a href="/academics/aas/communication">Communication</a></li>
+                        <li><a href="/academics/aas/chemistry-and-biochemistry/">Chemistry &amp; Biochemistry</a></li>
+                        <li><a href="/academics/aas/english/">English</a></li>
+                        <li><a href="/academics/aas/world-cultures-and-languages/">Global Studies</a></li>
+                        <li><a href="/academics/aas/history/">History &amp; Political Science</a></li>
+                        <li><a href="/academics/aas/math-cs/">Math &amp; Computer Science</a></li>
+                        <li><a href="/academics/aas/music/">Music &amp; Dance</a></li>
+                        <li><a href="/academics/aas/world-cultures-and-languages/">Spanish &amp; French</a></li>
+                        <li><a href="/academics/aas/theology/">Theology &amp; Philosophy</a></li>
+                      </ul>
+                    </div>
+                  <div>
+                    <h4><a href="/academics/hsa">Health Sciences &amp; Administration</a></h4>
+                      <ul>
+                        <li><a href="/academics/hsa/business-health-admin/">Allied Health Studies</a></li>
+                        <li><a href="/academics/hsa/business-health-admin/">Business</a></li>
+                        <li><a href="/academics/hsa/foods-and-nutrition/">Foods &amp; Nutrition</a></li>
+                        <li><a href="/academics/hsa/business-health-admin/">Health Care Management</a></li>
+                        <li><a href="/academics/hsa/nursing/">Nursing</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/academics/hsd">Human &amp; Social Development</a></h4>
+                      <ul>
+                        <li><a href="/academics/hsd/education/">Education</a></li>
+                        <li><a href="/academics/hsd/justice-studies/">Justice Studies</a></li> 
+                        <li><a href="/academics/hsd/psychology/">Psychology</a></li>
+                        <li><a href="/academics/hsd/sociology/">Sociology</a></li>
+                      </ul>                          
+                    </div>                
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a class="dropdown" href="">Campus Life</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner"> 
+                    <div>
+                      <h4><a href="/campus-life/">Campus Life Home</a><br /><a href="/campus-life/get-involved/">Get Involved</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/get-involved/student-activities/">Student Activities</a></li>
+                        <li><a href="/campus-life/get-involved/student-government-association.dot">Student Government</a></li>
+                        <li><a href="/campus-life/get-involved/student-activities/clubs-organizations/">Clubs &amp; Organizations</a></li>
+                        <li><a href="/campus-life/get-involved/student-activities/cab.dot">College Activities Board</a></li>
+                      </ul>
+                      <h4><a href="/campus-life/professional-development/">Professional Development</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/professional-development/career-services/">Career Services</a></li>
+                        <li><a href="/campus-life/professional-development/leadership-development/">Leadership Development</a></li>
+                      </ul> 
+                    </div>
+                    <div>
+                      <h4><a href="/campus-life/spirituality-and-service/">Spirituality &amp; Service</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/spirituality-and-service/campus-ministry/">Campus Ministry</a></li>
+                        <li><a href="/campus-life/spirituality-and-service/volunteerism/">Center for Volunteerism &amp; Service-Learning</a></li>
+                      </ul>
+                      <h4><a href="/campus-life/student-life/">Student Life At CSE</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/student-life/residence-life.dot">Residence Life</a></li>
+                        <li><a href="/campus-life/student-life/commuters.dot">Commuter Life</a></li>
+                        <li><a href="/campus-life/student-life/bookstore.dot">Bookstore</a></li>
+                        <li><a href="http://www.dineoncampus.com/cse/" target="_blank">Dining Services</a></li>       
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/campus-life/student-support/">Student Support</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/student-support/counseling-services/">Counseling Services</a></li>
+                        <li><a href="/campus-life/student-support/disability-services/">Disability Services</a></li>
+                        <li><a href="/campus-life/student-support/ima/">International &amp; Multicultural Affairs</a></li>
+                      </ul>
+                      <h4><a href="/campus-life/wellness-and-safety/">Wellness &amp; Safety</a></h4>
+                      <ul>
+                        <li><a href="/campus-life/wellness-and-safety/health-services/">Health Services</a></li>
+                        <li><a href="/campus-life/wellness-and-safety/security/">Campus Security</a></li>
+                      </ul>
+                    </div>          
+                    <div>
+                      <h4><a href="/calendar/">Events</a></h4>
+                      <ul>                    
+                        <li><a href="/calendar/">Calendar</a></li>
+                      </ul>
+                    </div>
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a class="dropdown" href="">Athletics</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner"> 
+                    <div>
+                      <h4><a href="/athletics/">Screaming Eagles</a></h4>
+                      <ul>
+                        <li><a href="/basketball">Basketball</a></li>
+                        <li><a href="/xc">Cross Country</a></li>
+                        <li><a href="/lax">Lacrosse</a></li>
+                        <li><a href="/soccer">Soccer</a></li>
+                        <li><a href="/softball">Softball</a></li>
+                        <li><a href="/swimming">Swimming</a></li>
+                        <li><a href="/tennis">Tennis</a></li>
+                        <li><a href="/volleyball">Volleyball</a></li>          
+                      </ul>
+                    </div>  
+                    <div>
+                      <h4><a href="/athletics/program-overview/">About Athletics</a></h4>
+                      <ul>
+                        <li><a href="/athletics/athletic-training.dot">Athletic Training</a></li>
+                        <li><a href="/athletics/facilities.dot">Facilities</a></li>
+                        <li><a href="/athletics/all_scores.dot">Scoreboard</a></li>
+                        <li><a href="/athletics/sports-information.dot">Sports Information</a></li>
+                        <li><a href="/athletics/athletic_staff.dot">Staff Directory</a></li>
+                        <li><a href="/athletics/visiting-team-information.dot">Visiting Team Information</a></li>
+                        <li><a href="/athletics/athletic_form.dot">Recruiting Questionnaire</a></li>
+
+                      </ul>
+                    </div>               
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a class="dropdown" href="#">Alumni</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner">
+                    <div>  
+                      <h4><a href="/alumni/">Alumni Home</a></h4>
+                      <ul>
+                        <li><a href="/alumni/alumna-magazine.dot">Alumna Magazine</a></li>
+                          <li><a href="/alumni/benefits-and-discounts.dot">Benefits &amp; Discounts</a></li>
+                          <li><a href="/alumni/class-notes.dot">Class Notes</a></li>
+                          <li><a href="/alumni/events.dot">Events</a></li>
+                          <li><a href="/alumni/webinars.dot">Webinars</a></li>
+                          <li><a href="/alumni/connect.dot">Get Connected</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/alumni/alumni-association/">Alumni Association</a></h4>
+                      <ul>
+                        <li><a href="/alumni/alumni-association/about.dot">About</a></li>
+                        <li><a href="/alumni/alumni-association/board-of-directors.dot">Board of Directors</a></li>
+                        <li><a href="/alumni/alumni-association/chapters-and-clubs.dot">Chapters &amp; Clubs</a></li>
+                        <li><a href="/alumni/alumni-association/presidents.dot">Presidents - Past &amp; Present</a></li>
+                        <li><a href="/alumni/alumni-association/alumni-awards.dot">Alumni Awards</a></li>
+                        <li><a href="/alumni/alumni-association/student-awards.dot">Student Leadership Awards</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/alumni/annual-fund/">Give Back</a></h4>
+                      <ul>
+                        <li><a href="/giving" target="_blank">Donate Now</a></li>
+                        <li><a href="/alumni/annual-fund/who-why-how.dot">Who, Why &amp; How</a></li>
+                        <li><a href="/alumni/annual-fund/ways-to-give.dot">Ways to Give</a></li>
+                        <li><a href="/alumni/annual-fund/gift-recognition.dot">Gift Recognition</a></li>
+                        <li><a href="/alumni/annual-fund/graduates-of-the-last-decade.dot">G.O.L.D.</a></li>
+                        <li><a href="/alumni/annual-fund/class-agent-program.dot">Class Agent Program</a></li>
+                        <li><a href="/alumni/annual-fund/restricted-funds-and-scholarships.dot">Restricted Funds/Scholarships</a></li>
+                        <li><a href="/alumni/annual-fund/honor-memorial-gifts.dot">Honor/Memorial Gifts</a></li>
+                        <li><a href="/alumni/annual-fund/new-founders-society.dot">New Founders Society</a></li>
+                        <li><a href="/alumni/annual-fund/faq.dot">FAQs</a></li>
+                      </ul>
+                    </div>             
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a class="dropdown" href="">About CSE</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner"> 
+                    <div>
+                      <h4><a href="/about-cse/">About CSE</a></h4>
+                      <ul>
+                        <li><a href="/about-cse/president-streubert/">President Streubert</a></li>
+                        <li><a href="/about-cse/fast-facts/">Fast Facts</a></li>
+                        <li><a href="/about-cse/mission-and-values/">Mission &amp; Values</a></li>
+                        <li><a href="/about-cse/cse-history/">CSE History</a></li>
+                        <li><a href="/about-cse/arts/">The Arts at CSE</a></li>          
+                      </ul>
+                    </div>  
+                    <div>
+                      <h4><a href="/about-cse/centers/">Centers</a></h4>
+                      <ul>
+                      <li><a href="/about-cse/centers/herc/">Holocaust Education Resource Center</a></li>
+                      <li><a href="/about-cse/centers/ccwh/">Center for Catholic Women's History</a></li>
+                      <li><a href="/about-cse/centers/hsd/">Center for Human &amp; Social Development</a></li>
+                      <li><a href="/about-cse/centers/ctsd/">Center for Ministry &amp; Spirituality</a></li>
+                      <li><a href="/campus-life/spirituality-and-service/volunteerism/">Center for Volunteerism &amp; Service-Learning</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/about-cse/dept-offices.dot">Offices/Services</a></h4>
+                      <ul>
+                        <li><a href="/about-cse/arts/">The Arts</a></li>
+                        <li><a href="/about-cse/conference-event-services/">Conference &amp; Event Services</a></li>
+                        <li><a href="/about-cse/dept-offices.dot">Departments &amp; Offices</a></li>
+                       </ul>
+                    </div>
+                    <div>
+                      <h4><a href="/about-cse/maps-and-directions/">How To Get To CSE</a></h4>
+                      <ul>                    
+                        <li><a href="/localhotels" target="_blank">Local Hotels</a></li>
+                        <li><a href="/about-cse/maps-and-directions/index.dot">Driving Directions</a></li>
+                        <li><a href="/about-cse/maps-and-directions/public-transportation-to-cse.dot">Public Transportation</a></li>
+                        <li><a href="/about-cse/maps-and-directions/campus-map.dot">Campus Map</a></li>
+                      </ul>
+                    </div>
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>
+              <li>
+                <a href="/news/">News</a>
+              </li>
+              <li>
+                <a class="dropdown" href="">Information For</a>
+                <div class="cse-mega-menu-sub">
+                  <div class="cse-mega-menu-inner"> 
+                    <div>
+                      <h4><a href="/prospective-students/">Information For</a></h4>
+                      <ul>
+                        <li><a href="/prospective-students/">Prospective Students</a></li> 
+                        <li><a href="/current-students/">Current Students</a></li> 
+                        <li><a href="/parents-family/">Parents &amp; Family</a></li>      
+                        <li><a href="/alumni/">Alumni</a></li>        
+                        <li><a href="/faculty-staff/">Faculty &amp; Staff</a></li>      
+                        <li><a href="/admissions/consumer-information.dot">Consumer Information</a></li>            
+                      </ul>
+                    </div>                   
+                  </div><!-- /cse-mega-menu-inner -->
+                </div><!-- /cse-mega-menu-sub -->
+              </li>            
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div><!--redesign-->
+  </div>
+
+  <div class="container">
+    <div class="sixteen columns" style="margin-top:10px;">
+    <div class="subpage-h-container">
+    <h1 class="subpage-h1">index-test</h1>   
+  </div>
+<style>
+/* catalog programs */
+#buttons button{
+  background-color: #5a5858;
+  color: #fff;
+  cursor: pointer;
+  border:none;
+  font-size: 12px;
+  font-weight: normal;
+  text-shadow: none;
+  margin:5px;  
+}
+#buttons, #search {
+  text-align: center;
+  margin-bottom: 30px;}
+
+button{
+  margin: 10px;
+
+  }
+
+#catalog-programs {
+  text-align: center;
+  margin: 0px auto;}
+
+.catalog-program {
+        width: 215px;
+  height: 150px;
+        vertical-align: top;
+        display:inline-block;
+  color: #fff;
+  text-align: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+  }
+.catalog-program a{
+        width: 215px;
+  height: 150px;
+        display: block;
+}
+/*.catalog-program:hover {
+  opacity: .8;
+        filter: alpha(opacity=80);
+}*/
+
+.catalog-program h3,
+.catalog-program h4{
+        padding: 10px;
+  color: #fff;
+        margin-bottom: 0;
+  }
+.catalog-program.undergraduate-ba{
+  background-color: #1262b3;
+}
+.catalog-program.undergraduate-bs{
+  background-color: #73120b;
+}
+.catalog-program.undergraduate-m{
+  background-color: #303030;
+}
+.catalog-program.graduate-ma{
+  background-color: #003366;
+}
+.catalog-program.graduate-ms{
+  background-color: #a1b309;
+}
+.catalog-program.nondegree{
+  background-color: #ffbb3d;
+}
+
+.catalog-programs .catalog-program.program-expanded > a::after{
+top:auto;
+border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #ddd;
+    border-width: 15px;
+    left: 50%;
+    margin: -20px 0 0 -15px;
+}
+.program-expander {
+    position: absolute;
+    background: #ddd;
+    top: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    height: 0;
+    overflow: hidden;
+}
+.program-expander-inner {
+    padding: 50px 30px;
+    height: 100%;
+}
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 1px;
+  background: #888;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.og-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #333;
+}
+.program-description,
+.program-offerings {
+    width: 45%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.program-description{
+padding: 0 40px 0 20px;
+}
+program-offerings{
+max-height:100%;
+max-width:100%;
+}
+
+.og-loading {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    animation: loader 0.5s infinite ease-in-out both;
+}
+ 
+@keyframes loader {
+    0% { background: #ddd; }
+    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@media screen and (max-width: 760px) {
+ 
+    .catalog-program { width:50%; }
+ 
+}
+ 
+@media screen and (max-width: 480px) {
+ 
+    .catalog-program { width:100%; }
+     
+}
+</style>
+<div class="twelve clearfix">
+<div id="buttons"></div>
+    <div id="catalog-programs">
+
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA" ><a href="http://www.cse.edu" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies"><h3>Allied Health Studies</h3><h4>BA</h4></a>
+
+</div>
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><a href="http://www.cse.edu" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies"><h3>American Studies</h3><h4>BA</h4></a>
+
+</div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Allied Health Studies</h3><h4>BA</h4></div>
+
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate"><h3>Art</h3><h4>BA</h4></div>
+
+<div class="catalog-program undergraduate-bs" data-tags="Undergraduate, BA, BS"><h3>Biology</h3><h4>BA/BS</h4></div>
+
+    <div class="catalog-program undergraduate-bs" data-tags="Undergraduate, BA, BS"><h3>Business Administration</h3><h4>BA/BS</h4></div>
+
+<div class="catalog-program undergraduate-bs" data-tags="Undergraduate, BA, BS"><h3>Chemistry & Biochemistry</h3><h4>BA/BS</h4></div>
+
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Communication</h3><h4>BA</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Education</h3><h4>BA</h4></div>
+<div class="catalog-program graduate-ma" data-tags="Graduate, MA, EDD"><h3>Education</h3><h4>MA/EDD</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Education (Non-Degree)</h3></div>
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>English</h3><h4>BA</h4></div>
+
+<div class="catalog-program undergraduate-bs"><a href="http://www.cse.edu" data-tags="Undergraduate" data-description="The Foods and Nutrition program offers a solid foundation in science and the liberal arts, and approaches the food and nutritional needs of individuals in a holistic manner. Our courses of study emphasize evidence-based practices, ethical leadership, social responsibility, service to the community and lifelong learning. The program offers a B.S. in Foods and Nutrition; an online M.S. in Nutrition, and various certificates in Nutrition and Dietetics." data-title="Foods and Nutrition"><h3>Foods and Nutrition</h3><h4>BS</h4></a></div>
+
+<div class="catalog-program graduate-ms" data-tags="Graduate, MS"><h3>Foods and Nutrition</h3>
+<h4>MS</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Foods and Nutrition (Non-Degree)</h3></div> 
+
+    <div class="catalog-program undergraduate-m" data-tags="Undergraduate, Minor"><h3>French</h3><h4>Minor</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate"><h3>Global Studies</h3><h4>BA</h4></div>
+
+<div class="catalog-program graduate-ms" data-tags="Graduate, MS"><h3>Health Care Management</h3><h4>MS</h4></div>
+
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate"><h3>History</h3><h4>BA</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Justice Studies (Criminal Justice)</h3><h4>BA/BS</h4></div>
+
+<div class="catalog-program graduate-ma" data-tags="Graduate, MA"><h3>Justice Administration and Public Service</h3><h4>MA</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Justice Studies (Criminal Justice) (Non-Degree)</h3></div>
+
+<div class="catalog-program graduate-ms" data-tags="Graduate, MS"><h3>Management</h3><h4>MS</h4></div>
+    <div class="catalog-program undergraduate-bs" data-tags="Undergraduate, BA, BS"><h3>Mathematics & Computer Science</h3><h4>BA/BS</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Mathematics & Computer Science (Non-Degree)</h3></div>
+
+<div class="catalog-program undergraduate-m" data-tags="Undergraduate, Minor"><h3>Music</h3><h4>Minor</h4></div>
+    <div class="catalog-program undergraduate-bs" data-tags="Undergraduate, BS"><h3>Nursing</h3><h4>BS</h4></div>
+
+<div class="catalog-program graduate-ms" data-tags="Graduate, MS"><h3>Nursing</h3><h4>MS</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Philosophy</h3><h4>BA</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Philosophy (Non-Degree)</h3></div>
+
+    <div class="catalog-program undergraduate-m" data-tags="Undergraduate, Minor"><h3>Political Science</h3><h4>Minor</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Psychology</h3><h4>BA</h4></div>
+
+<div class="catalog-program graduate-ma" data-tags="Graduate, MA, PsyD"><h3>Psychology</h3><h4>MA/PsyD</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Sociology</h3><h4>BA</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Psychology (Non-Degree)</h3></div>
+
+<div class="catalog-program undergraduate-m" data-tags="Undergraduate, Minor"><h3>Spanish</h3><h4>Minor</h4></div>
+
+<div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><h3>Theology</h3><h4>BA</h4></div>
+
+<div class="catalog-program graduate-ma" data-tags="Graduate, MA"><h3>Theology</h3><h4>MA</h4></div>
+
+<div class="catalog-program nondegree" data-tags="Non-Degree"><h3>Theology (Non-Degree)</h3></div>
+    </div>
+
+</div>
+             
+</div>
+
+  </div>
+  
+  <div class="footerWrapper">    
+    <div class="container">
+      <!--Sponsorship-->
+      <div class="four columns">
+        <h3>Who We Are</h3>
+        <p>Founded in 1899 by the <a href="http://www.scnj.org/" target="_blank">Sisters of Charity of Saint Elizabeth</a>, the College of Saint Elizabeth has a strong tradition of concern for the poor, for developing leadership in a spirit of service and social responsibility, and a commitment to the promotion of women as full partners in society.</p><p><a href="/about-cse/">Learn more about the College</a></p>
+      </div>
+      <!---Offices-->
+      <div class="four columns">
+        <h3>Admissions</h3>
+        <ul>
+          <li><a href="/admissions/apply.dot" title="Footer Section - Apply Now">Apply Now</a></li>
+          <li><a href="/admissions/request-information.dot" title="Footer Section - Request Information">Request Information</a></li>
+          <li><a href="/admissions/womens-college/" title="Footer Section - Women's College Admissions">Women's College</a></li>
+          <li><a href="/admissions/continuing-studies/" title="Footer Section - Continuing Studies Admissions">Continuing Studies</a></li>
+          <li><a href="/admissions/graduate-studies" title="Footer Section - Graduate Studies Admissions">Graduate Studies</a></li>
+          <li><a href="/admissions/military-veterans/" title="Footer Section - Military/Veterans Admissions">Military/Veterans</a></li>
+          <li><a href="/admissions/tuition-and-fees/" title="Footer Section - Tuition and Fees">Tuition and Fees</a></li>
+          <li><a href="/admissions/financial-aid/" title="Footer Section - Financial Aid">Financial Aid</a></li>
+          <li><a href="/admissions/bursar/" title="Footer Section - Bursar">Bursar</a></li>
+          <li><a href="/admissions/visit-cse/" title="Footer Section - Visit CSE">Visit CSE</a></li>
+        </ul>
+      </div>
+    <div class="four columns">
+      <h3>Academics</h3>
+      <ul>
+        <li><a href="/academics/catalog/" title="Footer Section - Academic Catalog">Academic Catalog</a></li> 
+        <li><a href="/academics/aas/" title="Footer Section - Arts and Sciences">Arts and Sciences</a></li> 
+        <li><a href="/academics/hsa/" title="Footer Section - Health Sciences and Administration">Health Sciences and Administration</a></li> 
+        <li><a href="/academics/hsd" title="Footer Section - Human and Social Development">Human and Social Development</a></li>       
+        <li> <a href="/academics/registrar/academic-calendars.dot" title="Footer Section - Academic Calendar">Academic Calendar</a></li> 
+        <li><a href="/academics/mahoney-library/" title="Footer Section - Mahoney Library">Mahoney Library</a></li> 
+        <li><a href="https://moodle.cse.edu/" title="Footer Section - Moodle">Moodle</a></li> 
+        <li><a href="/academics/registrar/" title="Footer Section - Registrar">Registrar</a></li> 
+        <li><a href="https://selfservice.cse.edu/Web/Home.aspx" title="Footer Section - Self-Service">Self-Service</a></li>
+      </ul>
+    </div>
+    <!--Centers-->
+    <div class="four columns">
+      <h3>Connect with CSE</h3>
+      <ul class="social-media-footer">
+        <li>
+          <div class ="footerSocialMedia"><a href="https://www.facebook.com/CollegeOfSaintElizabeth" target="_blank" title="Facebook"><img alt="facebook" src="http://cmsdev2.cse.edu/responsive/img/Facebook.png" title="Facebook" /></a></div><a href="https://www.facebook.com/CollegeOfSaintElizabeth" target="_blank" title="Facebook">Facebook</a>
+        </li>
+        <li>
+          <div class ="footerSocialMedia"><a href="https://www.twitter.com/CollegeOfSaintE" target="_blank" title="Twitter"><img alt="Twitter" src="http://cmsdev2.cse.edu/responsive/img/Twitter.png" title="Twitter" /></a></div> <a href="https://www.twitter.com/CollegeOfSaintE" target="_blank" title="Twitter">Twitter</a> 
+        </li>   
+        <li>
+          <div class ="footerSocialMedia"><a href="https://www.instagram.com/CollegeofSaintE" target="_blank" title="Instagram"><img alt="Instagram" src="http://cmsdev2.cse.edu/responsive/img/Instagram.png" title="Instagram" /></a></div> <a href="https://www.instagram.com/CollegeofSaintE" target="_blank" title="Instagram">Instagram</a>
+        </li>
+        <li>
+          <div class ="footerSocialMedia"><a href="https://www.pinterest.com/collegeofsainte" target="_blank" title="Pinterest"><img alt="Pinterest" src="http://cmsdev2.cse.edu/responsive/img/Pinterest.png" title="Pinterest" /></a></div> <a href="https://www.pinterest.com/collegeofsainte" target="_blank" title="Pinterest">Pinterest</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+    <div class="footerDivider"></div>
+      <div class="six columns">
+        College of Saint Elizabeth <br/>
+        2 Convent Road <br/>
+        Morristown, NJ 07960-6989 <br/>
+        973-290-4000 <br/><br/>
+        &amp;copy; 2015 College of Saint Elizabeth
+      </div>
+      <div class="ten columns">
+        <div class="footer-links">
+          <a href="/home/contact-us.dot">Contact</a>
+          <a href="/hr">Employment</a>
+          <a href="/directory">Directory</a>
+          <a href="http://mail.google.com/a/cse.edu/">Login</a>
+          <a href="/about-cse/maps-and-directions/">Maps</a>
+          <a href="/home/sitemap.dot" class="last">Site Index</a>  
+        </div>
+      </div>
+    </div>
+    <a id="goTop">TOP</a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
+  <script src="mega-menu/megaMenu.js"></script>
+  <script src="on-scroll-header/on-scroll-header.js"></script>
+  <script src="flex-slider/flex-slider.js"></script>
+  <script src="mobile-menu-toggle/mobile-menu-toggle.js"></script>
+  <script src="go-to-top/go-to-top.js"></script>
+
+  <script src="academic-catalog/js/modernizr.custom.js"></script>
+  <!-- <script src="academic-catalog/js/grid.js"></script>  -->
+  <script src="academic-catalog/js/programs-listing.js"></script> 
+  <script src="academic-catalog/js/programs-grid.js"></script>
+  <script src="js/app.js"></script>
+<!-- End Document
+================================================== -->
+</body>
+</html>

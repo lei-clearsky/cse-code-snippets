@@ -5,6 +5,7 @@ jQuery.noConflict();
   mobileMenuToggle.init();
   onScrollHeader.init();
   $('.flexslider').flexslider({});
+  Grid.init();
   //goToTop;
   
   //academicCatalog.init();
