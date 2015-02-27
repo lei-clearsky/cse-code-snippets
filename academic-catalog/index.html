@@ -25,7 +25,7 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
   <link rel="stylesheet" type="text/css" href="../css/components.css" />
-  <link rel="stylesheet" href="flex-slider/flex-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="../flex-slider/flex-slider.css" type="text/css" media="screen" />
   <!-- Favicons
   ================================================== -->
   <link rel="shortcut icon" href="img/favicon.png">
@@ -430,191 +430,15 @@
     <div class="subpage-h-container">
     <h1 class="subpage-h1">index-test</h1>   
   </div>
-<style>
-/* catalog programs */
-#buttons button{
-  background-color: #5a5858;
-  color: #fff;
-  cursor: pointer;
-  border:none;
-  font-size: 12px;
-  font-weight: normal;
-  text-shadow: none;
-  margin:5px;  
-}
-#buttons, #search {
-  text-align: center;
-  margin-bottom: 30px;}
 
-button{
-  margin: 10px;
-
-  }
-
-#catalog-programs {
-  text-align: center;
-  margin: 0px auto;}
-
-.catalog-program {
-        width: 215px;
-  height: 150px;
-        vertical-align: top;
-        display:inline-block;
-  color: #fff;
-  text-align: left;
-        margin-right: 10px;
-        margin-bottom: 10px;
-  }
-.catalog-program a{
-        width: 215px;
-  height: 150px;
-        display: block;
-}
-/*.catalog-program:hover {
-  opacity: .8;
-        filter: alpha(opacity=80);
-}*/
-
-.catalog-program h3,
-.catalog-program h4{
-        padding: 10px;
-  color: #fff;
-        margin-bottom: 0;
-  }
-.catalog-program.undergraduate-ba{
-  background-color: #1262b3;
-}
-.catalog-program.undergraduate-bs{
-  background-color: #73120b;
-}
-.catalog-program.undergraduate-m{
-  background-color: #303030;
-}
-.catalog-program.graduate-ma{
-  background-color: #003366;
-}
-.catalog-program.graduate-ms{
-  background-color: #a1b309;
-}
-.catalog-program.nondegree{
-  background-color: #ffbb3d;
-}
-
-.catalog-programs .catalog-program.program-expanded > a::after{
-top:auto;
-border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-bottom-color: #ddd;
-    border-width: 15px;
-    left: 50%;
-    margin: -20px 0 0 -15px;
-}
-.program-expander {
-    position: absolute;
-    background: #ddd;
-    top: auto;
-    left: 0;
-    width: 100%;
-    margin-top: 10px;
-    text-align: left;
-    height: 0;
-    overflow: hidden;
-}
-.program-expander-inner {
-    padding: 50px 30px;
-    height: 100%;
-}
-.og-close {
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-
-.og-close::before,
-.og-close::after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  top: 50%;
-  height: 1px;
-  background: #888;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.og-close::after {
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  transform: rotate(-45deg);
-}
-
-.og-close:hover::before,
-.og-close:hover::after {
-  background: #333;
-}
-.program-description,
-.program-offerings {
-    width: 45%;
-    float: left;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-}
-.program-description{
-padding: 0 40px 0 20px;
-}
-program-offerings{
-max-height:100%;
-max-width:100%;
-}
-
-.og-loading {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: #ddd;
-    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25px 0 0 -25px;
-    animation: loader 0.5s infinite ease-in-out both;
-}
- 
-@keyframes loader {
-    0% { background: #ddd; }
-    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
-    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
-}
-
-@media screen and (max-width: 760px) {
- 
-    .catalog-program { width:50%; }
- 
-}
- 
-@media screen and (max-width: 480px) {
- 
-    .catalog-program { width:100%; }
-     
-}
-</style>
 <div class="twelve clearfix">
 <div id="buttons"></div>
     <div id="catalog-programs">
 
-    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA" ><a href="http://www.cse.edu" img-src="http://www.cse.edu/global/images/academics/lounge-lp-760x420.jpg" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies" data-largesrc="http://www.cse.edu/global/images/academics/lounge-lp-760x420.jpg"><h3>Allied Health Studies</h3><h4>BA</h4></a>
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA" ><a href="http://www.cse.edu" img-src="http://www.cse.edu/global/images/academics/lounge-lp-760x420.jpg" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies" data-largesrc="http://www.cse.edu/global/images/academics/busadmin-ldominguez-760x420.jpg"><h3>Allied Health Studies</h3><h4>BA</h4></a>
 
 </div>
-    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><a href="http://www.cse.edu" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies"><h3>American Studies</h3><h4>BA</h4></a>
+    <div class="catalog-program undergraduate-ba" data-tags="Undergraduate, BA"><a href="http://www.cse.edu" data-description="With a basis in the College's liberal arts tradition, the Allied Health program gives students an overview of issues in health and health care delivery and provides specific training in management and leadership. Students learn to be ethical members of the health care profession dedicated to assessing and addressing the needs of society and improving health and wellness for individuals, groups and populations." data-title="Allied Health Studies" data-largesrc="http://www.cse.edu/global/images/academics/as-rbyrne-760x420.jpg"><h3>American Studies</h3><h4>BA</h4></a>
 
 </div>
 
