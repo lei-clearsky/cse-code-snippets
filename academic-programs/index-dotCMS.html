@@ -1,0 +1,205 @@
+<style>
+/* catalog programs */
+#buttons button{
+  background-color: #808080;
+  color: #fff;
+  cursor: pointer;
+  border:none;
+  font-size: 12px;
+  font-weight: normal;
+  text-shadow: none;
+  margin:5px;  
+}
+#buttons, #search {
+  text-align: center;
+  margin-bottom: 30px;}
+
+button{
+  margin: 10px;
+
+  }
+
+#catalog-programs {
+  text-align: center;
+  margin: 0px auto;}
+
+.catalog-program {
+        width: 215px;
+  height: 150px;
+        vertical-align: top;
+        display:inline-block;
+  color: #fff;
+  text-align: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+  }
+.catalog-program a{
+        width: 215px;
+  height: 150px;
+        display: block;
+}
+/*.catalog-program:hover {
+  opacity: .8;
+        filter: alpha(opacity=80);
+}*/
+
+.catalog-program .title,
+.catalog-program .sub-title{
+        padding: 10px;
+  color: #fff;
+        margin-bottom: 0;
+  }
+.catalog-program h3,
+.catalog-program h4{
+        padding: 10px 10px 10px 0;
+  color: #333;
+        margin-bottom: 0;
+  }
+.catalog-program p {
+     color:#333;
+}
+.catalog-program.undergraduate-ba{
+  background-color: #1262b3;
+}
+.catalog-program.undergraduate-bs{
+  background-color: #73120b;
+}
+.catalog-program.undergraduate-m{
+  background-color: #303030;
+}
+.catalog-program.graduate-ma{
+  background-color: #003366;
+}
+.catalog-program.graduate-ms{
+  background-color: #a1b309;
+}
+.catalog-program.nondegree{
+  background-color: #ffbb3d;
+}
+
+.catalog-programs .catalog-program.program-expanded > a::after{
+top:auto;
+border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #ddd;
+    border-width: 15px;
+    left: 50%;
+    margin: -20px 0 0 -15px;
+}
+.program-expander {
+    position: absolute;
+    background: #ddd;
+    top: auto;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+    height: 0;
+    overflow: hidden;
+}
+.program-expander-inner {
+    padding: 50px 30px;
+    height: 100%;
+}
+.og-close {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.og-close::before,
+.og-close::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  height: 1px;
+  background: #888;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.og-close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.og-close:hover::before,
+.og-close:hover::after {
+  background: #333;
+}
+.program-description,
+.program-offerings {
+    width: 45%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.program-description{
+padding: 0 40px 0 20px;
+}
+program-offerings{
+max-height:100%;
+max-width:100%;
+}
+
+.og-loading {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    animation: loader 0.5s infinite ease-in-out both;
+}
+ 
+@keyframes loader {
+    0% { background: #ddd; }
+    33% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ccc, -15px 30px 1px #ddd; }
+    66% { background: #ccc; box-shadow: 0 0 1px #ccc, 15px 30px 1px #ddd, -15px 30px 1px #ccc; }
+}
+
+@media screen and (max-width: 760px) {
+ 
+    .catalog-program { width:50%; }
+ 
+}
+ 
+@media screen and (max-width: 480px) {
+ 
+    .catalog-program { width:100%; }
+     
+}
+</style>
+<div class="twelve clearfix">
+<div id="buttons"></div>
+    <div id="catalog-programs">
+       <!--test-->
+          #foreach($con in $dotcontent.pull("+structureName:programdegree +(conhost:d8b27542-d5fd-46a5-8ea3-b360bbe91cce conhost:SYSTEM_HOST)",50,"modDate desc"))
+        <div class='$con.cssClass' data-tags="$con.tags" ><a href="http://www.cse.edu" data-description="$con.programOverview" data-title="$con.title" data-largesrc="$con.programImage.uri"><h3 class="title">$con.title</h3><h4 class="sub-title">$con.tags</h4></a>
+        </div>
+      #end
+       <!--end test-->
+   </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="/responsive/js/modernizr.custom.js"></script>
+<script src="/responsive/js/programs-grid.js"></script>
+<script>
+(function() {
+  Grid.init();
+})();
+</script>
