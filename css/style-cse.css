@@ -1074,6 +1074,16 @@ a.calendar-btn.hide-calendar-btn,
 }
 
 /* sub-menu */
+.cbp-hrmenu .cbp-hrsub.one-col{
+  width:250px;
+  right:0px;
+  left:710px;
+}
+
+.cbp-hrmenu .one-col .cbp-hrsub-inner > div{
+  width: 100%;
+
+}
 .cbp-hrmenu .cbp-hrsub {
   display: none;
   position: absolute;
@@ -1423,6 +1433,7 @@ form td{
     font-size: 100%;
     border: none;
   }
+
   .cbp-hrmenu > ul,
   .cbp-hrmenu .cbp-hrsub-inner {
     width: 100%;
@@ -1447,6 +1458,11 @@ form td{
 
   .cbp-hrmenu .cbp-hrsub { 
     position: relative;
+    width:768px;
+    left:0px;
+  }
+
+  .cbp-hrmenu .cbp-hrsub.one-col{
     width:768px;
     left:0px;
   }
@@ -1585,7 +1601,10 @@ form td{
     width:420px;
     left:0px;
   }
-
+  .cbp-hrmenu .cbp-hrsub.one-col{
+    left:0;
+    width:420px;
+  }
   .cbp-hrsub h4 {
     padding-top: 0.6em;
   }
@@ -1766,6 +1785,11 @@ form td{
     position: relative;
     width:300px;
     left:0;
+  }
+
+  .cbp-hrmenu .cbp-hrsub.one-col{
+    left:0;
+    width:300px;
   }
 
   .cbp-hrsub h4 {
