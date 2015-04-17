@@ -8,7 +8,7 @@ jQuery.noConflict();
   Grid.init();
   //goToTop;
   
-  //academicCatalog.init();
+  academicCatalog.init();
 
   //Show Hide Pannel       
   var icons = {
